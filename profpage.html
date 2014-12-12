@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'> 
+	<title>Professor Homepage</title>
+	<!-- CSS files -->
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-modal.css">
+	<link rel="stylesheet" href="css/portals.css" />	
+	<link rel="stylesheet" href="shadowbox-3.0.3/shadowbox.css"/>
+</head>
+<body>
+	<!-- Navigation bar on the top -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">     
+          <a class="brand" href="homepage.html" tabindex=3><img src="img/logo1.png" alt="sdf"></a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+				<a href="builder.html" class="navbar-link">&nbsp;New Class</a>
+				<a href="homepage.html" class="navbar-link">&nbsp;Log Out</a>
+            </p>
+          </div> <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+<h1>Welcome Professor!</h1>
+<br>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <!--Sidebar content-->
+      <h3>My Classes</h3>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class='btn' href="#">CSE 134B</a>
+			  <a class="btn" href="manageclass.html" title="Manage Class"><i class="icon-user"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="Add Class"><i class="icon-pencil"></i></a>
+		  </div>
+	  </div>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">CSE 135</a>
+			  <a class="btn" href="manageclass.html" title="Manage Class"><i class="icon-user"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="Add Class"><i class="icon-pencil"></i></a>
+		  </div>
+	  </div>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">CSE 123</a>
+			  <a class="btn" href="manageclass.html" title="Manage Class"><i class="icon-user"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="Add Class"><i class="icon-pencil"></i></a>
+		  </div>
+	  </div>
+	  <form action="profpage.html" method="GET">
+<input type="hidden" name="param1" value="val" />
+<input type="hidden" name="param2" value="val2" />	  
+			  		<div class='btn-toolbar'>
+			  			<div class='btn-group'>
+			  				<a class='btn' href='#' onclick="this.parentNode.parentNode.parentNode.submit()">cse3</a>
+			  				<a class='btn' href='manageclass.html?class=cse3' title='Manage Class'><i class='icon-user'></i></a>
+			  				<a class='btn' href='test.php' title='Delete'><i class='icon-trash'></i></a>
+			  				<a class='btn' href='#' title='Add Class'><i class='icon-pencil'></i></a>
+			  			</div>
+			  		</div>
+	  </form>	  
+	  	<form action="addclass.php" method="GET">
+		Class Name:<input type='text' name='username'>
+		<input type='submit' value='Add Class'>
+	</form>  	  
+    </div>
+    <div class="span9">
+      <!--Body content-->
+      <h3>Published Quizzes</h3>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">Quiz 1</a>
+			  <a class="btn" href="#" title="Edit"><i class="icon-pencil"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="View Statistics"><i class="icon-file"></i></a>
+		  </div>
+	  </div>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">Quiz 2</a>
+			  <a class="btn" href="#" title="Edit"><i class="icon-pencil"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="View Statistics"><i class="icon-file"></i></a>
+		  </div>
+	  </div>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">Quiz 3</a>
+			  <a class="btn" href="#" title="Edit"><i class="icon-pencil"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="View Statistics"><i class="icon-file"></i></a>			  
+		  </div>
+	  </div>			  
+      <h3>Unpublished Quizzes</h3>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">Quiz 4</a>
+			  <a class="btn" href="#" title="Edit"><i class="icon-pencil"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="Publish"><i class="icon-ok"></i></a>
+		  </div>
+	  </div>
+	  <div class="btn-toolbar">
+		  <div class="btn-group">
+			  <a class="btn" href="#">Quiz 5</a>
+			  <a class="btn" href="#" title="Edit"><i class="icon-pencil"></i></a>
+			  <a class="btn" href="#" title="Delete"><i class="icon-trash"></i></a>
+			  <a class="btn" href="#" title="Publish"><i class="icon-ok"></i></a>
+		  </div>
+	  </div>
+    </div>
+  </div>
+</div>
+</body>

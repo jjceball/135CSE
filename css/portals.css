@@ -1,0 +1,291 @@
+ 	 body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-image:url('../img/dark_linen_texture.jpg');
+      }
+            .sidebar-nav {
+        padding: 9px 0;
+      }
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+      h1 {
+	    color:#32B2B2;
+	    padding-left: 20px;
+      }
+      .span9 {
+  width: 700px;
+  background-color:#ffffff;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+.span3 {
+  width: 220px;
+  background-color:#ffffff;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+	/************************************ Icon Settings************************************/
+	.icon-save, .icon-preview, .icon-timer, .icon-restart,
+	.icon-randomize, .icon-pagination,.icon-sort, .icon-section, .icon-sort-by-type
+	{
+		cursor:pointer;
+		width:37px;
+		height:37px;
+		vertical-align:middle;
+		opacity:0.5;
+	}
+	.icon-plus,.icon-delete, .icon-minus, .icon-q, .icon-save:hover, .icon-preview:hover, .icon-timer:hover,
+	.icon-restart:hover, .icon-randomize:hover, .icon-pagination:hover, .icon-q:hover, .icon-sort:hover, .icon-section:hover,
+	.icon-sort-by-type:hover
+	{
+		cursor:pointer;
+		width:37px;
+		height:37px;
+		vertical-align:middle;
+		opacity:1;
+	}
+	.icon-sort
+	{
+		cursor:move;
+		width:37px;
+		height:37px;
+		vertical-align:middle;
+	}
+	.icon-plus
+	{
+		margin: 0;
+	}
+	/****************************Toolbar's Detail Section****************************/
+	#details{
+		color:black;
+		font-size:10px;
+		margin: 0 10px 5px 10px;
+	}
+	/****************************Toolbar's Add Question Section****************************/
+	.addq
+	{	
+		color:black;
+		font-size:10px;
+		margin: 0 10px 5px 10px;
+	}
+	.addq:hover
+	{	
+		cursor:move;
+		color:black;
+		font-weight:bold;
+		font-size:10px;
+		background:#D8D8D8;
+	}
+	#draghere
+	{	
+		color:#04B4AE;
+		background-color:#CEF6EC;
+		font-size:20px;
+		border:2px dashed #04B4AE;
+		border-radius: 30px;
+		text-align:center;
+	}
+	.rightqlist
+	{
+		cursor:pointer;
+		color:#D8D8D8;
+	}
+	#sidescroll
+	{
+		float: right;
+		width: 250px;
+		height: 700px;
+		margin: 0 auto;
+		border:1px solid;
+		overflow: auto;
+		background: rgb(54,25,25);
+		background:rgba(0,0,0,.25);
+	}
+	#sidescroll-title
+	{
+		margin: 0 auto;
+		border:1px solid;
+		position: relative;
+		background: rgb(54,25,25);
+		background:rgba(0,0,0,.25);
+	}
+	::-webkit-scrollbar {
+		width: 20px;
+	} 
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		border-radius: 10px;
+	} 
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.9); 
+	}
+	.right_menu_text
+	{
+		color:#009966;
+	}
+	.buildTools
+	{
+		text-align:center;
+	}
+	.here_button
+	{
+		cursor:pointer;
+		text-decoration:underline;
+	}
+	.widget-content
+	{
+		display:none;
+	}	
+	.ui-widget{
+	font-size: 15px;
+	}
+    /************tooltip colors***********/
+    .ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: url('../img/dark_linen_texture.jpg') repeat;
+	color: white;
+	}
+	.ui-widget-content a {
+		color: #009966;
+	}
+	.ui-widget-header {
+		border: 1px solid #33CCFF;
+		background-image:url('../img/dark_linen_texture.jpg');
+		color: #009966;
+		font-weight: bold;
+	}
+	.ui-widget-header a {
+		color: #009966;
+	}
+	.question_list
+	{
+		padding:0px;
+		margin:0px;
+		<!--padding-bottom:100px;-->
+	}
+	.well sidebar-nav{
+		padding-top: 200px;
+	}
+	input[type="radio"], input[type="checkbox"]
+	{
+		margin: 0 10px 2px 0;
+	}
+	input[type="text"]
+	{
+		margin-bottom:0;
+	}
+	.pslide
+	{
+		margin:0 0 10px 10px;
+	}
+	.nav-header
+	{
+		margin-bottom: 5px;
+	}
+	.manualGrade
+	{
+		margin-right: 5px;
+	}
+	.previous_link, .page_link, .last_link, .next_link
+	{
+		margin: 0 0 0 10px;
+	}
+	#tabs{
+		border:0px;
+		width: 730px;
+		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    	background: rgba(0, 0, 0, .25);
+	}
+	.tabNav{
+		border:0px solid;
+		background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    	background: rgba(0, 0, 0, .25);
+	}
+	.tabTop
+	{	
+		font-size:11px;	
+	}
+	.tabTop:hover
+	{	
+		font-weight: bold;
+	}
+	.badge
+	{
+		float: right;
+		position: relative;
+		right: 10px;
+		top: 10px;
+		opacity:0.5;
+	}	
+	#owl
+	{
+		position: fixed;
+		top: 1000px;
+		left: 1050px;
+		width: 300px;
+		height: 300px;
+	}
+	#dontForget, .ui-tooltip
+	{
+		position: fixed;
+		top: 400px;
+		left: 800px;
+		width: 215px;
+		z-index:5;
+	}
+	#modifyPop
+	{
+		display:none;
+		position:fixed;
+		top: 420px;
+		left: 972px;
+		z-index: 10;
+	}
+	input#timerhour, input#timermin, #section-tabs{
+		font-size: 12px;
+		width: 30px;
+		height: 12px;
+	}	
+	textarea{
+		width: 500px;
+	}
+	#sidescroll
+	{
+		display:none;
+	}
+	.rightscroll
+	{
+		color:white;
+		font-weight:bold;
+		font-size:10px;
+		width:175px;
+		height:auto;
+		margin:20px;
+		padding-top:10px;
+		padding-left:16px;
+		padding-bottom:20px; 
+		background:rgb(255,255,255);
+		background:rgba(255,255,255,.15);
+	}
+	.rightqlist{
+		width:150px;
+		height:70px;
+		margin:4px;
+		color:black;
+		font-size:10px;
+		text-align:center;
+		padding-top:5px;
+		border-top-left-radius: 5px 5px;
+		border-top-right-radius: 5px 5px;
+		background:rgb(255,255,255);
+		background:rgba(255,255,255,.5);
+	}

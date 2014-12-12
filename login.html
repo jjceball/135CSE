@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="CSE134 quiz builder website by Group 15 Summer 2013" />
+		<title>Log in</title>
+		<link rel="stylesheet" media="all" href="css/Signup.css" type="text/css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		<script src="js/parallax.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+						<h1>Log In!</h1>
+					</header>
+					<!-- Submit with PHP Button -->
+					<form action="login.php" method="POST">
+					    <!-- UserName -->
+					    UserName
+         				<input name="username" type="text" class="input fr" maxlength="20" size ="41">
+        				<!-- Password -->
+       				    Password
+        			    <input name="password" type="password" class="input fr" maxlength="20" size ="41">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Login!">
+       				 </form>        				 
+                     <!-- Go Back to main -->
+                     <form action="homepage.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="MainPage">
+                     </form>
+                     <form action="Signup.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Sign Up Here">
+                     </form>
+                     <form action="forgot.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Forget your password?">
+                     </form>
+                     <!-- links to portal prototypes -->
+                     <form action="profpage.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Professor Prototype">
+                     </form>
+                     <form action="studentpage.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Student Prototype">
+                     </form>
+                     <form action="graderpage.html">
+       				 <input type="submit" name="submitButton" style="width: 150px" value="Grader Prototype">
+                     </form>
+				</article>	
+			</div>
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="img/quizzy.png" width="650" height="657" alt="Quizzler Guide Quizzy"/>
+				<img id="bg3-2" src="img/tutorial.png" width="600" height="400" alt="Features of the Quizzler"/>
+				<img id="bg3-4" src="img/ground.png" width="600" height="684" alt="Landscape with some trees"/>
+			</div>
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2">
+				<img id="bg2-1" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-2" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-3" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-4" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-5" src="img/cloud-lg1.png" alt="cloud"/>
+			</div>
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1">
+				<img id="bg1-1" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-2" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-3" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-4" src="img/cloud-lg2.png" alt="cloud"/>
+			</div>
+		</div>
+	</body>
+</html>
