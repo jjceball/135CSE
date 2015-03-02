@@ -1,3 +1,5 @@
 CSE135
 ======
-Code written to create a website, specifically the backend. 
+Code used during CSE 135, Server-Side Wed Applications.
+
+Core languages used: HTML, CSS, Javascript, PHP, SQL.
